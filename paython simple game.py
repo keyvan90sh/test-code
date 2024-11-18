@@ -5,7 +5,7 @@ guess = None
 while guess != number:
     guess = int(input("Guess a number between 1 and 100: "))
     if guess < number:
-        print("youre stupid!")
+        print("youre not stupid!")
     elif guess > number:
         print("Too high!")
     else:
